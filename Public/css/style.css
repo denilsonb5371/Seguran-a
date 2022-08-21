@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-camera{
+margin: 10px;
+padding: 10px;
+width: 100%;
+background: #000000;
+background-image: url(../img/cameras-de-seguranca-desktop.jpg);
+background-image: cover;
+background-attachment: fixed;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+width: 100%;
+height: 800px;
+}
+
+
+.texto-camera{
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    bottom: 5px;
+    float: right;
+}
+
+.texto-camera h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    left: 30px;
+    
+}
+
+.texto-camera p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+
+article{
+background-color: white;
+
+}
+
+.text{
+    border-radius: 25px;
+    background: #000000;
+    padding: 20px;
+    width: 100%;
+    height: 320px;
+    margin: 10px;
+    padding: 10px;
+ }
+.text p {
+padding: 15px;
+text-align: center;
+font-size: 20px;
+color: white;
+
+}
+
+aside{
+width: 100%;
+margin: 10px;
+
+}
+
+.conteudo{
+display: flex;
+margin: 10px;
+padding: 10px;
+}
+
+.img-conteudo{
+width: 800px;
+height: 340px;
+padding: 10px;
+border-radius: 25px;
+background: #000000;
+padding: 15px;
+}
+
+.texto-conteudo{
+padding: 10px;
+border-radius: 25px;
+background: #000000;
+}
+
+.texto-conteudo h4{
+padding: 10px;
+color: white;
+font-size: 16px;
+
+}
+
+.texto-conteudo p{
+color: white;
+padding: 7px;
+}
+
+@media screen and (max-width: 900px) {
+    *{
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    .logo-tipo{
+    display: none;
+    }
+
+
+    .conteudo{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .img-camera{
+    background-image: url(../img/cameras-de-seguranca.jpg);
+
+    }
+
+    .texto-camera h3{
+    font-size: 25px;
+    margin-bottom: 1em;
+
+    }
+    
+    .texto-camera p{
+        font-size: 25px;
+        margin-bottom: 8em;
+        }
+
+
+} 
